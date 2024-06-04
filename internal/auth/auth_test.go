@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestGetAPIKey(t *testing.T){
+func TestGetAPIKey(t *testing.T) {
 	input := []http.Header{
 		{},
 		{},
