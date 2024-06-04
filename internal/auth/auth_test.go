@@ -31,7 +31,7 @@ func TestGetAPIKey(t *testing.T) {
 	wantErr := []error{
 		errors.New("no authorization header included"),
 		errors.New("no authorization header included"),
-		errors.New("malformed ..... authorization header"),
+		errors.New("malformed authorization header"),
 		nil,
 		nil,
 	}
