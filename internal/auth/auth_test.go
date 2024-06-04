@@ -38,7 +38,7 @@ func TestGetAPIKey(t *testing.T) {
 
 	for i := range input {
 		gotVal, gotErr := GetAPIKey(input[i])
-		if gotErr == nil || wantErr == nil {
+		if gotErr == nil || wantErr[i] == nil {
 			if gotVal != wantVal[i] || gotErr != wantErr[i] {
 				t.Fatalf("%d: wanted %v, %v but got %v, %v", i, wantVal[i], wantErr[i], gotVal, gotErr)
 			}
