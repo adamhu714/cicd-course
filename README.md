@@ -1,4 +1,4 @@
-# cicd-course (Notely)
+# cicd-course (Notely) ![tests status badge](http://github.com/adamhu714/cicd-course/actions/workflows/ci.yml/badge.svg)
 
 This repo contains the starter code for the "Notely" application for the "Learn CICD" course on [Boot.dev](https://boot.dev).
 
