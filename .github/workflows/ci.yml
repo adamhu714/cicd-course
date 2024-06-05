@@ -48,4 +48,4 @@ jobs:
         run: go install honnef.co/go/tools/cmd/staticcheck@latest
 
       - name: Check linting
-        run: test -z $(staticcheck ./...)
+        run: staticcheck ./...
