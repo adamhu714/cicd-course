@@ -1,8 +1,9 @@
-name: ci
+name: CI
 
 on:
-  pull_request:
-    branches: [main]
+    # push:
+    pull_request:
+      branches: [main]
 
 jobs:
   tests:
@@ -36,3 +37,8 @@ jobs:
       
       - name: Check formatting
         run: test -z $(go fmt ./...)
+
+      - name: Linting
+        uses: dominikh/staticcheck-action@v1.2.0
+        with:
+          version: "latest"
