@@ -10,7 +10,9 @@ For deployment, I used Google Cloud Platform to containerize and automatically d
 Additionally, I set up a remote sqlite database using Turso and connected it to the GCP deployment of the application.
 
 Image showcasing online deployed application with persistent data: 
+
 ![image](https://github.com/adamhu714/cicd-course/assets/105497355/f13e78c1-d4a4-4940-993f-3935864f03e0)
+
 
 ---
 
