@@ -7,7 +7,8 @@ The yml files created for the CI/CD are found in the .github folder.
 The CI workflow I set up automatically runs unit tests, security tests, formatting and linting tests upon a pull request to the main branch.
 
 For deployment, I used Google Cloud Platform to containerize and automatically deploy/update the application serverlessly whenever the main branch is pushed to.
-Additionally, I set up a remote sqlite database using Turso and connected it to the GCP deployment of the application.
+Additionally, I set up a remote sqlite database using Turso and automated migrations in the github actions workflow,
+as well as connected the database to the GCP deployment of the application.
 
 Image showcasing online deployed application with persistent data: 
 
