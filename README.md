@@ -1,4 +1,4 @@
-# CI CD - Course [ Notely ]
+# CI/CD - Course [ Notely ]
 ![tests status badge](http://github.com/adamhu714/cicd-course/actions/workflows/ci.yml/badge.svg)
 
 Within this project, I used github actions to implement both a continuous integration and a continuous deployment workflow.
