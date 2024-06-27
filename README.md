@@ -3,8 +3,8 @@
 
 Notely is a simple note taking web app provided by boot.dev for use in a CI/CD project.
 
-Within this project, I used github actions to implement both a continuous integration and a continuous deployment workflow.
-The yml files created for the CI/CD are found in the .github folder.
+Within this project, I used Github Actions to implement both a continuous integration and a continuous deployment workflow.
+The YAML files created for the CI/CD are found in the .github directory.
 
 The CI workflow I set up automatically runs unit tests, security tests, formatting and linting tests upon a pull request to the main branch.
 
